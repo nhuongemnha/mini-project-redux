@@ -1,10 +1,9 @@
 import "./App.css";
-import GameXucXac from "./GameXucXac/GameXucXac";
-
+import GameOanTuXi from "./GameOanTuXi/GameOanTuXi";
 function App() {
   return (
     <div className="App">
-      <GameXucXac />
+      <GameOanTuXi />
     </div>
   );
 }

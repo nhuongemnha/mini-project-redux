@@ -16,7 +16,7 @@ const reducer = (state = initialState, action) => {
       return { ...state };
     case "PLAY_GAME":
       let mangXucXacNgauNhien = [];
-      for (let i = 0; i < 3; i++) {
+      for (let i = 0; i < state.mangXucXac.length; i++) {
         let soNgauNhien = Math.floor(Math.random() * 6 + 1);
         let xucXacNgauNhien = {
           ma: soNgauNhien,

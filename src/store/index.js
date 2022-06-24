@@ -1,9 +1,10 @@
 import { createStore, combineReducers } from "redux";
 import GameXucXac from "../store/reducers/GameXucXac";
-
+import GameOanTuXi from "../store/reducers/GameOanTuXi";
 const reducer = combineReducers({
   // Khai bao reducer con
   GameXucXac,
+  GameOanTuXi,
 });
 
 const store = createStore(
